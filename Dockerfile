@@ -1,17 +1,17 @@
-# Start with a lightweight base image with Java
+# Use lightweight Java image
 FROM openjdk:17-jdk-slim
 
-# Set an environment variable for the app's jar file name
-ENV APP_JAR=myapp-0.0.1-SNAPSHOT.jar
+# App jar name (adjust if needed)
+ARG JAR_FILE=target/*.jar
 
-# Set the working directory inside the container
-WORKDIR /src
+# Create app directory
+WORKDIR /app
 
-# Copy the jar file from your local machine to the container
-COPY target/${APP_JAR} app.jar
+# Copy jar file into the container
+COPY ${JAR_FILE} app.jar
 
-# Expose the port your Spring Boot app runs on (usually 8080)
+# Expose the app port
 EXPOSE 8080
 
-# Set the command to run the jar file
+# Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
