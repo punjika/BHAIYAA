@@ -41,8 +41,11 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .csrf(csrf -> csrf.disable()) // Disable CSRF protection for stateless APIs
                 .cors(withDefaults())
                 .authorizeHttpRequests(auth -> auth
-                                .anyRequest().permitAll() // Allow all requests without authentication
-                );
+                                .requestMatchers("/**").permitAll() // Allow all requests without authentication
+                                .anyRequest().permitAll()
+                )
+                .formLogin(form -> form.disable()) // Disable form login
+                .httpBasic(basic -> basic.disable()); // Disable HTTP Basic authentication
         return http.build();
     }
 
@@ -50,7 +53,7 @@ public class SecurityConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         // Enable CORS for your frontend app
         registry.addMapping("/**")
-                .allowedOriginPatterns("http://localhost:4200") // Angular frontend URL
+                .allowedOriginPatterns("http://localhost:4200", "https://*.railway.app", "https://*.up.railway.app") // Angular frontend URL + Railway domains
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
@@ -60,7 +63,9 @@ public class SecurityConfig implements WebMvcConfigurer {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.addAllowedOrigin("http://localhost:4200"); // Angular frontend URL
+        corsConfiguration.addAllowedOriginPattern("http://localhost:4200"); // Angular frontend URL
+        corsConfiguration.addAllowedOriginPattern("https://*.railway.app"); // Railway domains
+        corsConfiguration.addAllowedOriginPattern("https://*.up.railway.app"); // Railway production domains
         corsConfiguration.addAllowedMethod("*"); // Allow all HTTP methods (GET, POST, etc.)
         corsConfiguration.addAllowedHeader("*"); // Allow all headers
         corsConfiguration.setAllowCredentials(true); // Allow credentials (cookies, etc.)

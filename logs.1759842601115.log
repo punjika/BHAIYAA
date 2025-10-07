@@ -1,0 +1,1001 @@
+2025-10-07T13:08:40.220426536Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220432992Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220444055Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220450825Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220457054Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220462344Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220469440Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220482118Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220487811Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220494460Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220500292Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220506313Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220511273Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220517834Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220523230Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:40.220529431Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:08:40.220538688Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:08:40.220543853Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:08:40.220548903Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:40.220554657Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:40.220559600Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:40.220566243Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:40.220571804Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220577862Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220583768Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220589888Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220595074Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220601322Z [inf]  	... 20 common frames omitted
+2025-10-07T13:08:40.220606741Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:40.220613076Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:40.220618264Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:40.220623305Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:40.220628754Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:40.220634579Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:40.220640074Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220645458Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220652156Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220658429Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220664757Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220670708Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220676358Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220683814Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220689252Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220697894Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220703891Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220711115Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220717705Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220723876Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:08:40.220730767Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220737396Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220743575Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220749441Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220755124Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220761359Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:40.220788447Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220796336Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220802479Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:40.220808437Z [inf]  	... 24 common frames omitted
+2025-10-07T13:08:40.220813965Z [inf]  
+2025-10-07T13:08:43.178319813Z [inf]  
+2025-10-07T13:08:43.178326866Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:08:43.178332091Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:08:43.178337259Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:08:43.178342532Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:08:43.178349322Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:08:43.178356240Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:08:43.178361815Z [inf]  
+2025-10-07T13:08:43.232666393Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:08:43.232671863Z [inf]  
+2025-10-07T13:08:43.337210381Z [inf]  2025-10-07T13:08:43.311Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:08:43.337217203Z [inf]  2025-10-07T13:08:43.313Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:08:45.778787286Z [inf]  2025-10-07T13:08:45.769Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:08:45.778792568Z [inf]  2025-10-07T13:08:45.770Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:08:45.807233418Z [inf]  2025-10-07T13:08:45.801Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.807240448Z [inf]  2025-10-07T13:08:45.803Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.807245490Z [inf]  2025-10-07T13:08:45.804Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.807250587Z [inf]  2025-10-07T13:08:45.805Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.807255206Z [inf]  2025-10-07T13:08:45.806Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.810227208Z [inf]  2025-10-07T13:08:45.807Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:45.810235007Z [inf]  2025-10-07T13:08:45.807Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:08:45.828742312Z [inf]  2025-10-07T13:08:45.820Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:08:45.828750238Z [inf]  2025-10-07T13:08:45.821Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:08:45.865007771Z [inf]  2025-10-07T13:08:45.855Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:08:47.618725503Z [inf]  2025-10-07T13:08:47.593Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:08:47.657007401Z [inf]  2025-10-07T13:08:47.651Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:08:47.657015273Z [inf]  2025-10-07T13:08:47.652Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:08:47.756070856Z [inf]  2025-10-07T13:08:47.754Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:08:47.756076387Z [inf]  2025-10-07T13:08:47.755Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4360 ms
+2025-10-07T13:08:48.694354636Z [inf]  2025-10-07T13:08:48.691Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:08:49.021341704Z [inf]  2025-10-07T13:08:48.989Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:08:49.202471974Z [inf]  2025-10-07T13:08:49.188Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:08:49.630979586Z [inf]  2025-10-07T13:08:49.623Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:08:49.666297879Z [inf]  2025-10-07T13:08:49.653Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:08:49.670699772Z [inf]  2025-10-07T13:08:49.662Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:08:49.670707504Z [inf]  
+2025-10-07T13:08:49.670712814Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:49.670717117Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:49.670721809Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:49.670734980Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:49.670739330Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:49.670743394Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:49.670747940Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670751759Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670756918Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670760761Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670764756Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670768817Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670772468Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670777426Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670783945Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670788455Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670792500Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670796717Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670800657Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670805569Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670809504Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670813586Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:49.670851300Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670856540Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670861068Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670865538Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670869959Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670874359Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670878618Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670883764Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670888686Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670892973Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670896885Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670901266Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670907466Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670913291Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670917503Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:49.670921797Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670926336Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670930829Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670936388Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670941303Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670945411Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:49.670950591Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:08:49.670954886Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:08:49.670959504Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:08:49.670964056Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:49.670968324Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:49.670973454Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:49.670980246Z [inf]  
+2025-10-07T13:08:49.689164279Z [inf]  2025-10-07T13:08:49.687Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:08:50.707044737Z [inf]  2025-10-07T13:08:50.696Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:08:50.710074963Z [inf]  2025-10-07T13:08:50.709Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:08:50.718386523Z [inf]  2025-10-07T13:08:50.712Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:50.718395513Z [inf]  2025-10-07T13:08:50.712Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:50.718400298Z [inf]  2025-10-07T13:08:50.714Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:08:50.726709154Z [inf]  2025-10-07T13:08:50.724Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:08:50.726717224Z [inf]  
+2025-10-07T13:08:50.726724822Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:08:50.745551290Z [inf]  2025-10-07T13:08:50.739Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:08:50.745563041Z [inf]  
+2025-10-07T13:08:50.745571771Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:50.745596873Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745605255Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745613721Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745622593Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745630330Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745638583Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.745646262Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746727310Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746734079Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746739494Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746744912Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746750506Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746757422Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746763145Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746768584Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:08:50.746773890Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:08:50.746779149Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:08:50.746784770Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:08:50.746790259Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:50.746795942Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:50.746802307Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:08:50.746807607Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:50.746813768Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746819933Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746825533Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746830585Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746835972Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.746841885Z [inf]  	... 20 common frames omitted
+2025-10-07T13:08:50.746847528Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:08:50.746853268Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:50.746858567Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:50.746863843Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:50.746869416Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:50.746875417Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:08:50.746881512Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746888776Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746894454Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746900574Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746906253Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746911600Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746919455Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746927821Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746933418Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746938993Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746944499Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746950800Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746955869Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746962500Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:08:50.746968348Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.746973705Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.747143361Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.747149364Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.747155319Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.747161000Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:08:50.747168008Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.747174819Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.747181025Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:08:50.747187457Z [inf]  	... 24 common frames omitted
+2025-10-07T13:08:50.747194569Z [inf]  
+2025-10-07T13:08:53.954706316Z [inf]  
+2025-10-07T13:08:53.954714066Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:08:53.954720653Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:08:53.954725706Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:08:53.954730629Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:08:53.954735189Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:08:53.954739582Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:08:53.954746877Z [inf]  
+2025-10-07T13:08:53.954751881Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:08:53.954756892Z [inf]  
+2025-10-07T13:08:54.107948556Z [inf]  2025-10-07T13:08:54.081Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:08:54.107958987Z [inf]  2025-10-07T13:08:54.084Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:08:56.412326577Z [inf]  2025-10-07T13:08:56.407Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:08:56.412334736Z [inf]  2025-10-07T13:08:56.408Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:08:56.443174274Z [inf]  2025-10-07T13:08:56.438Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.443185252Z [inf]  2025-10-07T13:08:56.439Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.443193350Z [inf]  2025-10-07T13:08:56.440Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.443200529Z [inf]  2025-10-07T13:08:56.441Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.446471175Z [inf]  2025-10-07T13:08:56.442Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.446480028Z [inf]  2025-10-07T13:08:56.443Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:08:56.446488354Z [inf]  2025-10-07T13:08:56.444Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:08:56.464665176Z [inf]  2025-10-07T13:08:56.456Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:08:56.464673766Z [inf]  2025-10-07T13:08:56.457Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:08:56.502841017Z [inf]  2025-10-07T13:08:56.493Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:08:58.210982763Z [inf]  2025-10-07T13:08:58.185Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:08:58.246220841Z [inf]  2025-10-07T13:08:58.245Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:08:58.246345237Z [inf]  2025-10-07T13:08:58.245Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:08:58.386484014Z [inf]  2025-10-07T13:08:58.347Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:08:58.386491077Z [inf]  2025-10-07T13:08:58.348Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4174 ms
+2025-10-07T13:08:59.063273003Z [inf]  2025-10-07T13:08:59.047Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:08:59.244099693Z [inf]  2025-10-07T13:08:59.241Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:08:59.452106437Z [inf]  2025-10-07T13:08:59.442Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:09:00.163848446Z [inf]  2025-10-07T13:09:00.162Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:09:00.213362840Z [inf]  2025-10-07T13:09:00.207Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:00.249533305Z [inf]  2025-10-07T13:09:00.217Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:09:00.249541690Z [inf]  
+2025-10-07T13:09:00.249547506Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:00.249553050Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:00.249735316Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249745383Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249753250Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249760594Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249768743Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:00.249768927Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249777969Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249779359Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249787621Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:00.249797867Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249807708Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249809627Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249813055Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:00.249824104Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.249826733Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:00.249838105Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249850383Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249861543Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249874258Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249883588Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249905367Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249914854Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249924351Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249934457Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249942387Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249952083Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249963535Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249972161Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.249986684Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:00.250792242Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250803308Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250815691Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250823280Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250830498Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250845864Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:00.250853540Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250861250Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250868773Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250876208Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250884546Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250891278Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:00.250897220Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:00.250903278Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:00.250909926Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:00.250916126Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:00.250924744Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:00.250931812Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:00.250939868Z [inf]  
+2025-10-07T13:09:00.268091620Z [inf]  2025-10-07T13:09:00.258Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:09:01.418692059Z [inf]  2025-10-07T13:09:01.409Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:09:01.462854986Z [inf]  2025-10-07T13:09:01.427Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:01.462863296Z [inf]  2025-10-07T13:09:01.432Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:01.462868573Z [inf]  2025-10-07T13:09:01.432Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:01.462875616Z [inf]  2025-10-07T13:09:01.434Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:09:01.462882644Z [inf]  2025-10-07T13:09:01.447Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:09:01.462894766Z [inf]  
+2025-10-07T13:09:01.462900080Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:09:01.500093499Z [inf]  2025-10-07T13:09:01.495Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:09:01.500104994Z [inf]  
+2025-10-07T13:09:01.500111528Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:01.500118070Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500124659Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500131899Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500137731Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500143430Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500149267Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500155869Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500161853Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500168686Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500174721Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500182333Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500188784Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500195138Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500201228Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500207388Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:01.500213611Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:01.500220202Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:01.500226841Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:01.500234190Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:01.500240971Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:01.500247828Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:01.500254034Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:01.500260493Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500266797Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500273305Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500279852Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500287266Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500309959Z [inf]  	... 20 common frames omitted
+2025-10-07T13:09:01.500319152Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:01.500332851Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:01.500339532Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:01.500345786Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:01.500351619Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:01.500357877Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:01.500364158Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500369882Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500379507Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500390527Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500396277Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500402067Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500408835Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500415159Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500423195Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500430675Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500438249Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500443842Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500451643Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500458530Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:09:01.500466411Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500472491Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500478431Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500488106Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500494539Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500503129Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:01.500509256Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500515414Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500521702Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:01.500527881Z [inf]  	... 24 common frames omitted
+2025-10-07T13:09:01.500535605Z [inf]  
+2025-10-07T13:09:04.512310758Z [inf]  
+2025-10-07T13:09:04.512322324Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:09:04.512329803Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:09:04.512337523Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:09:04.512344641Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:09:04.512351633Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:09:04.512358042Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:09:04.512364387Z [inf]  
+2025-10-07T13:09:04.512369722Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:09:04.512374534Z [inf]  
+2025-10-07T13:09:04.683212746Z [inf]  2025-10-07T13:09:04.680Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:09:04.683277290Z [inf]  2025-10-07T13:09:04.682Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:09:07.037453525Z [inf]  2025-10-07T13:09:07.023Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:07.037463000Z [inf]  2025-10-07T13:09:07.025Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:09:07.070169283Z [inf]  2025-10-07T13:09:07.063Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.070178998Z [inf]  2025-10-07T13:09:07.065Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.070185851Z [inf]  2025-10-07T13:09:07.066Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.070192412Z [inf]  2025-10-07T13:09:07.067Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.070200548Z [inf]  2025-10-07T13:09:07.068Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.070586489Z [inf]  2025-10-07T13:09:07.069Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:07.074390978Z [inf]  2025-10-07T13:09:07.073Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:09:07.092978901Z [inf]  2025-10-07T13:09:07.092Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:07.096616783Z [inf]  2025-10-07T13:09:07.093Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:09:07.132979662Z [inf]  2025-10-07T13:09:07.128Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:09:08.705871431Z [inf]  2025-10-07T13:09:08.704Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:09:08.779107539Z [inf]  2025-10-07T13:09:08.777Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:09:08.779117426Z [inf]  2025-10-07T13:09:08.777Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:09:08.888634130Z [inf]  2025-10-07T13:09:08.879Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:09:08.888642986Z [inf]  2025-10-07T13:09:08.879Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4157 ms
+2025-10-07T13:09:09.387688428Z [inf]  2025-10-07T13:09:09.381Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:09:09.585529993Z [inf]  2025-10-07T13:09:09.584Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:09:09.798564128Z [inf]  2025-10-07T13:09:09.791Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:09:10.422746048Z [inf]  2025-10-07T13:09:10.421Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:09:10.458620835Z [inf]  2025-10-07T13:09:10.447Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:10.503030127Z [inf]  2025-10-07T13:09:10.454Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:09:10.503039559Z [inf]  
+2025-10-07T13:09:10.503047518Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:10.503053669Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:10.503060971Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:10.503067629Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:10.503075477Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:10.503080006Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:10.503084302Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503090131Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503095450Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503102762Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503116764Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503122054Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503128517Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503133689Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503138058Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503142683Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503148495Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503153028Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503158181Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503163021Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503167113Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503171504Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:10.503176494Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503181404Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503186889Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503192008Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503197228Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503201568Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503206636Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503235587Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503240028Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503520677Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503529000Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503537795Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503543508Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503549347Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503555262Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:10.503561223Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503568925Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503579618Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503585797Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503591757Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503597566Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:10.503603420Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:10.503609789Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:10.503614877Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:10.503621977Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:10.503628134Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:10.503634677Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:10.503640574Z [inf]  
+2025-10-07T13:09:10.503646462Z [inf]  2025-10-07T13:09:10.489Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:09:11.516138595Z [inf]  2025-10-07T13:09:11.494Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:09:11.516145292Z [inf]  2025-10-07T13:09:11.509Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:11.516151376Z [inf]  2025-10-07T13:09:11.513Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:11.516157427Z [inf]  2025-10-07T13:09:11.514Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:11.518913834Z [inf]  2025-10-07T13:09:11.516Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:09:11.537340665Z [inf]  2025-10-07T13:09:11.530Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:09:11.537345622Z [inf]  
+2025-10-07T13:09:11.537352012Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:09:11.560139077Z [inf]  2025-10-07T13:09:11.548Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:09:11.560151896Z [inf]  
+2025-10-07T13:09:11.560162104Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:11.560171326Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560198984Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560211542Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560220723Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560234612Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560243520Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560249190Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560261543Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560267359Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560273409Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560278626Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560283376Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560289172Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560374056Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560380677Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:11.560385998Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:11.560390354Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:11.560395132Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:11.560400787Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:11.560406647Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:11.560412607Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:11.560418605Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:11.560423987Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560430977Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560444714Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560450908Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560455732Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560462566Z [inf]  	... 20 common frames omitted
+2025-10-07T13:09:11.560468766Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:11.560475504Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:11.560482532Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:11.560489794Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:11.560495874Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:11.560503317Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:11.560509459Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560517697Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560590831Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560598201Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560607481Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560613610Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560619941Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560627599Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560635677Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560642996Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560651338Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560657129Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560663484Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560670629Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:09:11.560678229Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560685877Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560693248Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560699872Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560706209Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560712284Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:11.560719985Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560728407Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560736137Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:11.560741958Z [inf]  	... 24 common frames omitted
+2025-10-07T13:09:11.560749790Z [inf]  
+2025-10-07T13:09:14.884735242Z [inf]  
+2025-10-07T13:09:14.884742563Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:09:14.884752560Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:09:14.884758160Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:09:14.884763556Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:09:14.884769483Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:09:14.884774867Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:09:14.884779036Z [inf]  
+2025-10-07T13:09:14.884783398Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:09:14.884787639Z [inf]  
+2025-10-07T13:09:14.990938317Z [inf]  2025-10-07T13:09:14.986Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:09:15.018678208Z [inf]  2025-10-07T13:09:15.014Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:09:17.391155475Z [inf]  2025-10-07T13:09:17.387Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:17.391164195Z [inf]  2025-10-07T13:09:17.388Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:09:17.428621050Z [inf]  2025-10-07T13:09:17.423Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.428628970Z [inf]  2025-10-07T13:09:17.424Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.428634599Z [inf]  2025-10-07T13:09:17.425Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.428640406Z [inf]  2025-10-07T13:09:17.426Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.428645228Z [inf]  2025-10-07T13:09:17.427Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.431477727Z [inf]  2025-10-07T13:09:17.428Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:17.431485249Z [inf]  2025-10-07T13:09:17.428Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:09:17.450222187Z [inf]  2025-10-07T13:09:17.440Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:17.450229677Z [inf]  2025-10-07T13:09:17.441Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:09:17.471812751Z [inf]  2025-10-07T13:09:17.468Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:09:19.181078298Z [inf]  2025-10-07T13:09:19.128Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:09:19.181085697Z [inf]  2025-10-07T13:09:19.153Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:09:19.181092865Z [inf]  2025-10-07T13:09:19.153Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:09:19.250394792Z [inf]  2025-10-07T13:09:19.244Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:09:19.250402464Z [inf]  2025-10-07T13:09:19.245Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4181 ms
+2025-10-07T13:09:19.772014903Z [inf]  2025-10-07T13:09:19.754Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:09:20.019256240Z [inf]  2025-10-07T13:09:20.016Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:09:20.260986974Z [inf]  2025-10-07T13:09:20.245Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:09:20.673441311Z [inf]  2025-10-07T13:09:20.670Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:09:20.712258141Z [inf]  2025-10-07T13:09:20.698Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:20.731029907Z [inf]  2025-10-07T13:09:20.716Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:09:20.731037098Z [inf]  
+2025-10-07T13:09:20.731042597Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:20.731047397Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:20.731053966Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:20.731058692Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:20.731063392Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:20.731067750Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:20.731072445Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731076822Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731081225Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731086265Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731096434Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731100635Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731104817Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731110046Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731114461Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731118568Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731123104Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731127091Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731132524Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731137657Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731141940Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731427749Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:20.731436892Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731443405Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731449719Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731455718Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731461768Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731478235Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731488513Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731495942Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731502226Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731508180Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731516223Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731521780Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731527419Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731534554Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731542998Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:20.731549204Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731555056Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731560613Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731567926Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731576162Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731581988Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:20.731587871Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:20.731593450Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:20.731601203Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:20.731653848Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:20.731661844Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:20.731667689Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:20.731673897Z [inf]  
+2025-10-07T13:09:20.757899987Z [inf]  2025-10-07T13:09:20.752Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:09:21.828917697Z [inf]  2025-10-07T13:09:21.826Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:09:21.849928069Z [inf]  2025-10-07T13:09:21.845Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:21.853248465Z [inf]  2025-10-07T13:09:21.849Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:21.853257104Z [inf]  2025-10-07T13:09:21.850Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:21.853263878Z [inf]  2025-10-07T13:09:21.852Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:09:21.871664630Z [inf]  2025-10-07T13:09:21.867Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:09:21.871675805Z [inf]  
+2025-10-07T13:09:21.871683529Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:09:21.907991234Z [inf]  2025-10-07T13:09:21.890Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:09:21.908008344Z [inf]  
+2025-10-07T13:09:21.908016063Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:21.908022900Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908029604Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908036039Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908042455Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908047944Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908063308Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908076741Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908093971Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908107489Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908120286Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908129635Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908137463Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908358126Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908366995Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908375841Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:21.908382438Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:21.908390228Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:21.908398502Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:21.908407201Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:21.908424376Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908425162Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:21.908437517Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:21.908442035Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908451319Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:09:21.908452799Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:21.908456227Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908465679Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908466715Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908476326Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908480460Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908485902Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908499859Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908563836Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908579247Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908589488Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908597579Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908607622Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908615756Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908619264Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908623561Z [inf]  	... 24 common frames omitted
+2025-10-07T13:09:21.908629088Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908636011Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908636561Z [inf]  
+2025-10-07T13:09:21.908642127Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:21.908647341Z [inf]  	... 20 common frames omitted
+2025-10-07T13:09:21.908652290Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:21.908658684Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:21.908664505Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:21.908669044Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:21.908674022Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:21.908679030Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:21.908684240Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908690218Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908696288Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908705002Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908710167Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908715155Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908720444Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:21.908726527Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:24.795495871Z [inf]  
+2025-10-07T13:09:24.795503615Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:09:24.795509205Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:09:24.795513303Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:09:24.795517681Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:09:24.797118567Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:09:24.797128409Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:09:24.797135561Z [inf]  
+2025-10-07T13:09:24.800771936Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:09:24.800780376Z [inf]  
+2025-10-07T13:09:24.969751401Z [inf]  2025-10-07T13:09:24.853Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:09:24.971338818Z [inf]  2025-10-07T13:09:24.855Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:09:27.267135119Z [inf]  2025-10-07T13:09:27.259Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:27.267147239Z [inf]  2025-10-07T13:09:27.260Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:09:27.294725318Z [inf]  2025-10-07T13:09:27.292Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.294735731Z [inf]  2025-10-07T13:09:27.293Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.298697704Z [inf]  2025-10-07T13:09:27.294Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.298707118Z [inf]  2025-10-07T13:09:27.295Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.298714101Z [inf]  2025-10-07T13:09:27.296Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.298719831Z [inf]  2025-10-07T13:09:27.296Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:27.298725550Z [inf]  2025-10-07T13:09:27.297Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:09:27.316330502Z [inf]  2025-10-07T13:09:27.309Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:27.316339292Z [inf]  2025-10-07T13:09:27.311Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:09:27.351366594Z [inf]  2025-10-07T13:09:27.337Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:09:28.894256419Z [inf]  2025-10-07T13:09:28.860Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:09:28.964003767Z [inf]  2025-10-07T13:09:28.950Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:09:28.964009120Z [inf]  2025-10-07T13:09:28.951Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:09:29.067631548Z [inf]  2025-10-07T13:09:29.050Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:09:29.067642664Z [inf]  2025-10-07T13:09:29.051Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4113 ms
+2025-10-07T13:09:29.658025166Z [inf]  2025-10-07T13:09:29.648Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:09:29.783293974Z [inf]  2025-10-07T13:09:29.767Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:09:29.931303555Z [inf]  2025-10-07T13:09:29.925Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:09:30.654061056Z [inf]  2025-10-07T13:09:30.636Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:09:30.674965014Z [inf]  2025-10-07T13:09:30.665Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:30.762080262Z [inf]  2025-10-07T13:09:30.739Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:09:30.762088149Z [inf]  
+2025-10-07T13:09:30.762093989Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:30.762100130Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:30.762106888Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:30.762112860Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:30.762118535Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:30.762123886Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:30.762129838Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762135416Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762140848Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762147744Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762154304Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762160218Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762165693Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762170968Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762176607Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762181882Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762188191Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762192454Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762195069Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762201560Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762203760Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762207889Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762212754Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762214267Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762221024Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:30.762221665Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762228423Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762237298Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762244191Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762250468Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762256811Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762456005Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762460716Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762465356Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762470095Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762474860Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762480548Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:30.762486168Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762491511Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762496276Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762502026Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762506660Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762511018Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:30.762515795Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:30.762522184Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:30.762529709Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:30.762534141Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:30.762539578Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:30.762544255Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:30.762549369Z [inf]  
+2025-10-07T13:09:30.762553809Z [inf]  2025-10-07T13:09:30.759Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:09:32.125304850Z [inf]  2025-10-07T13:09:32.115Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:09:32.144274172Z [inf]  2025-10-07T13:09:32.134Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:32.144283247Z [inf]  2025-10-07T13:09:32.140Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:32.144288918Z [inf]  2025-10-07T13:09:32.141Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:32.147447370Z [inf]  2025-10-07T13:09:32.143Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:09:32.165768885Z [inf]  2025-10-07T13:09:32.159Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:09:32.165775926Z [inf]  
+2025-10-07T13:09:32.165780746Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:09:32.201794910Z [inf]  2025-10-07T13:09:32.185Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:09:32.201802389Z [inf]  
+2025-10-07T13:09:32.201812334Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:32.201821052Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201827825Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201833912Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201839895Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201845975Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201851933Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.201857333Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202334389Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202343359Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202349775Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202356795Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202363869Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202370791Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202377979Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202384907Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:32.202391439Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:32.202398112Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:32.202403796Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:32.202409870Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:32.202416261Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:32.202422251Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:32.202429914Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:32.202435971Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202441709Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202447593Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202454503Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202462588Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202469165Z [inf]  	... 20 common frames omitted
+2025-10-07T13:09:32.202476077Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:32.202481835Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:32.202487270Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:32.202494097Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:32.202500568Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:32.202514327Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:32.202522292Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202529263Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202535362Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202542643Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202548358Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202553988Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202560400Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202842520Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202850331Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202857557Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202864065Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202871241Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202878138Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202885531Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:09:32.202892473Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202898229Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202904550Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202911998Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202918770Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202925572Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:32.202931827Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202937748Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202943622Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:32.202950322Z [inf]  	... 24 common frames omitted
+2025-10-07T13:09:32.202957470Z [inf]  
+2025-10-07T13:09:35.508580977Z [inf]  
+2025-10-07T13:09:35.508590275Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:09:35.508597033Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:09:35.508602450Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:09:35.508623009Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:09:35.508629711Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:09:35.508637004Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:09:35.508644342Z [inf]  
+2025-10-07T13:09:35.508650956Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:09:35.508660124Z [inf]  
+2025-10-07T13:09:35.555886617Z [inf]  2025-10-07T13:09:35.537Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:09:35.555896692Z [inf]  2025-10-07T13:09:35.539Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:09:37.767763960Z [inf]  2025-10-07T13:09:37.691Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:37.767772552Z [inf]  2025-10-07T13:09:37.692Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:09:37.767777296Z [inf]  2025-10-07T13:09:37.733Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767781746Z [inf]  2025-10-07T13:09:37.734Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767787235Z [inf]  2025-10-07T13:09:37.735Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767795159Z [inf]  2025-10-07T13:09:37.736Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767799171Z [inf]  2025-10-07T13:09:37.737Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767803197Z [inf]  2025-10-07T13:09:37.737Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:09:37.767807673Z [inf]  2025-10-07T13:09:37.738Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:09:37.767812532Z [inf]  2025-10-07T13:09:37.750Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:09:37.767817343Z [inf]  2025-10-07T13:09:37.751Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:09:37.785390411Z [inf]  2025-10-07T13:09:37.780Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:09:39.405732092Z [inf]  2025-10-07T13:09:39.390Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:09:39.443265172Z [inf]  2025-10-07T13:09:39.437Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:09:39.443272936Z [inf]  2025-10-07T13:09:39.438Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:09:39.531661463Z [inf]  2025-10-07T13:09:39.530Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:09:39.531675832Z [inf]  2025-10-07T13:09:39.531Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3905 ms
+2025-10-07T13:09:40.231965396Z [inf]  2025-10-07T13:09:40.226Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:09:40.507168268Z [inf]  2025-10-07T13:09:40.485Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:09:40.630243354Z [inf]  2025-10-07T13:09:40.627Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:09:41.267118024Z [inf]  2025-10-07T13:09:41.259Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:09:41.285411009Z [inf]  2025-10-07T13:09:41.284Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:41.304755959Z [inf]  2025-10-07T13:09:41.291Z  WARN 1 --- [Event] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-10-07T13:09:41.304767926Z [inf]  
+2025-10-07T13:09:41.304773937Z [inf]  java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:41.304779350Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:41.304784287Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:41.304788762Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:41.304793334Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:41.304798612Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:41.304803477Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304807683Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304812178Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304816155Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304822464Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304827838Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304831832Z [inf]  	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304835779Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304840745Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304845334Z [inf]  	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304850193Z [inf]  	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304854931Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304860571Z [inf]  	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304864382Z [inf]  	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304868608Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304873900Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:41.304878207Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304882480Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304886439Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304890493Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304896347Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304901266Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304905673Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304909975Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304915201Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304919607Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304924034Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304928326Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304932563Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304936687Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304940547Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:41.304945289Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304949638Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304953483Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304957210Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304960935Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304965280Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:41.304969465Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:41.304973312Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:41.304977379Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:41.304981448Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:41.304985679Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:41.304989904Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:41.304993498Z [inf]  
+2025-10-07T13:09:41.330676860Z [inf]  2025-10-07T13:09:41.321Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:09:42.231596282Z [inf]  2025-10-07T13:09:42.226Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:09:42.245325423Z [inf]  2025-10-07T13:09:42.242Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:09:42.252686447Z [inf]  2025-10-07T13:09:42.247Z ERROR 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:42.252693556Z [inf]  2025-10-07T13:09:42.247Z  WARN 1 --- [Event] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:42.252698716Z [inf]  2025-10-07T13:09:42.249Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-07T13:09:42.270943567Z [inf]  2025-10-07T13:09:42.263Z  INFO 1 --- [Event] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-10-07T13:09:42.270949732Z [inf]  
+2025-10-07T13:09:42.270956419Z [inf]  Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-07T13:09:42.292636146Z [inf]  2025-10-07T13:09:42.288Z ERROR 1 --- [Event] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-10-07T13:09:42.292643394Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292649810Z [inf]  	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292650449Z [inf]  
+2025-10-07T13:09:42.292656051Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292660812Z [inf]  	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292662886Z [inf]  org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:42.292665429Z [inf]  	... 24 common frames omitted
+2025-10-07T13:09:42.292669295Z [inf]  	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292672571Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292674780Z [inf]  
+2025-10-07T13:09:42.292678494Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292684151Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292688613Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292693134Z [inf]  	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292699444Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292703484Z [inf]  	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292707256Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292711292Z [inf]  	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292715877Z [inf]  	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292720732Z [inf]  	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292726097Z [inf]  	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292731831Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292736597Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292740646Z [inf]  	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.10.jar!/:3.3.10]
+2025-10-07T13:09:42.292745290Z [inf]  	at com.college.EventApplication.main(EventApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2025-10-07T13:09:42.292753857Z [inf]  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+2025-10-07T13:09:42.292757832Z [inf]  	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+2025-10-07T13:09:42.292761523Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:42.292765763Z [inf]  	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:42.292770584Z [inf]  	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[com.college-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2025-10-07T13:09:42.292775362Z [inf]  Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:42.292780599Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292784979Z [inf]  	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292789067Z [inf]  	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292793276Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292826123Z [inf]  	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.18.jar!/:6.1.18]
+2025-10-07T13:09:42.292831614Z [inf]  	... 20 common frames omitted
+2025-10-07T13:09:42.292836877Z [inf]  Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${SPRING_DATASOURCE_URL}
+2025-10-07T13:09:42.292841446Z [inf]  	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:109) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:42.292847132Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:327) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:42.292853649Z [inf]  	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:113) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:42.292858349Z [inf]  	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:91) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:42.292862976Z [inf]  	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2025-10-07T13:09:42.292868309Z [inf]  	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292872652Z [inf]  	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292877183Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292881704Z [inf]  	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292890945Z [inf]  	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292896131Z [inf]  	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292900972Z [inf]  	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292905095Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292910018Z [inf]  	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292914057Z [inf]  	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292919391Z [inf]  	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292926804Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292930556Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292935337Z [inf]  	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+2025-10-07T13:09:42.292939208Z [inf]  	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292943353Z [inf]  	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292947974Z [inf]  	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]
+2025-10-07T13:09:42.292952623Z [inf]  	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar!/:6.5.3.Final]

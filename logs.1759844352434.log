@@ -1,0 +1,63 @@
+2025-10-07T13:30:50.000000000Z [inf]  Starting Container
+2025-10-07T13:30:52.762522696Z [inf]  
+2025-10-07T13:30:52.762529333Z [inf]    .   ____          _            __ _ _
+2025-10-07T13:30:52.762535949Z [inf]   /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-10-07T13:30:52.762542519Z [inf]  ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-10-07T13:30:52.762549998Z [inf]   \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-10-07T13:30:52.762558128Z [inf]    '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-10-07T13:30:52.762565232Z [inf]   =========|_|==============|___/=/_/_/_/
+2025-10-07T13:30:52.762572664Z [inf]  
+2025-10-07T13:30:52.762580290Z [inf]   :: Spring Boot ::               (v3.3.10)
+2025-10-07T13:30:52.762588354Z [inf]  
+2025-10-07T13:30:52.814129581Z [inf]  2025-10-07T13:30:52.797Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Starting EventApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/app/target/com.college-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-10-07T13:30:52.814137421Z [inf]  2025-10-07T13:30:52.800Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-10-07T13:30:54.900958522Z [inf]  2025-10-07T13:30:54.895Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:30:54.900964835Z [inf]  2025-10-07T13:30:54.897Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-07T13:30:54.932303838Z [inf]  2025-10-07T13:30:54.928Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.SponsorRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.932310227Z [inf]  2025-10-07T13:30:54.929Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.932315792Z [inf]  2025-10-07T13:30:54.929Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.932321872Z [inf]  2025-10-07T13:30:54.930Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.VenueRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.935923134Z [inf]  2025-10-07T13:30:54.931Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventFeedbackRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.935927646Z [inf]  2025-10-07T13:30:54.932Z  INFO 1 --- [Event] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.college.repository.EventRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-10-07T13:30:54.935933035Z [inf]  2025-10-07T13:30:54.932Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2025-10-07T13:30:54.946821364Z [inf]  2025-10-07T13:30:54.944Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-07T13:30:54.946826273Z [inf]  2025-10-07T13:30:54.945Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-07T13:30:54.971207991Z [inf]  2025-10-07T13:30:54.969Z  INFO 1 --- [Event] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 6 JPA repository interfaces.
+2025-10-07T13:30:56.411601864Z [inf]  2025-10-07T13:30:56.407Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-07T13:30:56.425104399Z [inf]  2025-10-07T13:30:56.422Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-07T13:30:56.425108849Z [inf]  2025-10-07T13:30:56.422Z  INFO 1 --- [Event] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-10-07T13:30:56.489897764Z [inf]  2025-10-07T13:30:56.485Z  INFO 1 --- [Event] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-07T13:30:56.489945966Z [inf]  2025-10-07T13:30:56.488Z  INFO 1 --- [Event] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3593 ms
+2025-10-07T13:30:57.183273139Z [inf]  2025-10-07T13:30:57.179Z  INFO 1 --- [Event] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-07T13:30:57.381896099Z [inf]  2025-10-07T13:30:57.380Z  INFO 1 --- [Event] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-07T13:30:57.590780547Z [inf]  2025-10-07T13:30:57.587Z  INFO 1 --- [Event] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-07T13:30:58.084437116Z [inf]  2025-10-07T13:30:58.081Z  INFO 1 --- [Event] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-07T13:30:58.111810762Z [inf]  2025-10-07T13:30:58.108Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-07T13:31:00.561219537Z [inf]  2025-10-07T13:31:00.557Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53e28097
+2025-10-07T13:31:00.561227230Z [inf]  2025-10-07T13:31:00.559Z  INFO 1 --- [Event] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-07T13:31:00.807782078Z [inf]  2025-10-07T13:31:00.804Z  WARN 1 --- [Event] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-07T13:31:02.251065189Z [inf]  2025-10-07T13:31:02.247Z  INFO 1 --- [Event] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-07T13:31:03.203601126Z [inf]  Hibernate: create table category (category_id bigint not null, description varchar(255), primary key (category_id))
+2025-10-07T13:31:03.440636256Z [inf]  Hibernate: create table event (event_id bigint generated by default as identity, date date, description varchar(255), name varchar(255), time time(6), category_category_id bigint, sponsor_sponsor_id bigint, venue_venue_id bigint, primary key (event_id))
+2025-10-07T13:31:03.641345124Z [inf]  Hibernate: create table event_feedback (id bigint generated by default as identity, comments varchar(255), email varchar(255), name varchar(255), primary key (id))
+2025-10-07T13:31:03.846244641Z [inf]  Hibernate: create table event_registration (id bigint generated by default as identity, branch varchar(255), college varchar(255), email varchar(255), name varchar(255), phone varchar(255), event_event_id bigint, primary key (id))
+2025-10-07T13:31:04.040270871Z [inf]  Hibernate: create table sponsor (sponsor_id bigint generated by default as identity, description varchar(255), name varchar(255), primary key (sponsor_id))
+2025-10-07T13:31:04.249868840Z [inf]  Hibernate: alter table if exists event add constraint FKghhs02fowmdm33xlek9jqcw16 foreign key (category_category_id) references category
+2025-10-07T13:31:04.454799541Z [inf]  Hibernate: alter table if exists event add constraint FKe7jwpnb0wo7uwn6adda20g21x foreign key (sponsor_sponsor_id) references sponsor
+2025-10-07T13:31:04.648768592Z [inf]  Hibernate: alter table if exists event add constraint FKag37p8l2i2h33g2cu0n96mui2 foreign key (venue_venue_id) references venue
+2025-10-07T13:31:04.852415286Z [inf]  Hibernate: alter table if exists event_registration add constraint FK8rloro2hsgncxn3pqahir3oa7 foreign key (event_event_id) references event
+2025-10-07T13:31:05.096174239Z [inf]  2025-10-07T13:31:05.093Z  INFO 1 --- [Event] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-07T13:31:05.800115018Z [inf]  2025-10-07T13:31:05.797Z  WARN 1 --- [Event] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-07T13:31:05.897669700Z [inf]  2025-10-07T13:31:05.895Z  WARN 1 --- [Event] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-10-07T13:31:05.897675370Z [inf]  
+2025-10-07T13:31:05.897680560Z [inf]  Using generated security password: 43fb6c12-d6c6-4e59-ad07-e0586a846657
+2025-10-07T13:31:05.897686692Z [inf]  
+2025-10-07T13:31:05.897694875Z [inf]  This generated password is for development use only. Your security configuration must be updated before running your application in production.
+2025-10-07T13:31:05.897701707Z [inf]  
+2025-10-07T13:31:05.984767084Z [inf]  2025-10-07T13:31:05.981Z  INFO 1 --- [Event] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-07T13:31:06.261196148Z [inf]  2025-10-07T13:31:06.259Z  INFO 1 --- [Event] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-07T13:31:07.901782709Z [inf]  2025-10-07T13:31:07.900Z  INFO 1 --- [Event] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-07T13:31:07.913377174Z [inf]  2025-10-07T13:31:07.910Z  INFO 1 --- [Event] [           main] com.college.EventApplication             : Started EventApplication in 15.889 seconds (process running for 16.969)
+2025-10-07T13:31:57.919263709Z [inf]  2025-10-07T13:31:48.057Z  INFO 1 --- [Event] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07T13:31:57.919273218Z [inf]  2025-10-07T13:31:48.057Z  INFO 1 --- [Event] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-07T13:31:57.919280514Z [inf]  2025-10-07T13:31:48.058Z  INFO 1 --- [Event] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
