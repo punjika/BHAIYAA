@@ -9,3 +9,4 @@ cmd = 'java -jar target/*.jar'
 
 [variables]
 MAVEN_OPTS = '-Xmx512m'
+SPRING_PROFILES_ACTIVE = 'prod'
