@@ -1,14 +1,12 @@
 # render.yaml — config for Render.com
-# This config defines a web service using the existing Dockerfile. Update as needed.
+# This config defines a web service for Spring Boot application
 services:
   - type: web
     name: event-web
-    env: docker
+    env: java
     plan: free
-    # Optionally specify a Dockerfile path or let Render use the repo root Dockerfile
-    dockerfilePath: Dockerfile
-    # Health check and start command are inferred from Dockerfile
-    # You can set env vars in the Render dashboard or below
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/*.jar
     envVars:
       - key: SPRING_DATASOURCE_URL
         value: "${SPRING_DATASOURCE_URL}"
@@ -16,6 +14,8 @@ services:
         value: "${SPRING_DATASOURCE_USERNAME}"
       - key: SPRING_DATASOURCE_PASSWORD
         value: "${SPRING_DATASOURCE_PASSWORD}"
+      - key: SERVER_PORT
+        value: "10000"
 
 # If you want to use Render's managed Postgres, add a separate service via the dashboard
 # and set the SPRING_DATASOURCE_URL to point to it. Render provides DB connection info
