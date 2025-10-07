@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.*;
 
 @RestController
-@RequestMapping("/user/feedback")
+@RequestMapping("/api/feedback")
 @CrossOrigin(origins = "http://localhost:4200")
 public class EventFeedbackController {
 

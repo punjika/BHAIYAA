@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/admin/events")
+@RequestMapping("/api/events")
 public class EventController {
     private static final Logger logger = LoggerFactory.getLogger(EventController.class);
 
