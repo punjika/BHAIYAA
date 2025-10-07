@@ -9,7 +9,7 @@ import com.college.service.VenueService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/venues")
+@RequestMapping("/admin/venues")
 @CrossOrigin(origins = "http://localhost:4200")
 public class VenueController {
     @Autowired

@@ -9,7 +9,7 @@ import com.college.service.CategoryService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/categories")
+@RequestMapping("/admin/categories")
 @CrossOrigin(origins = "http://localhost:4200")
 public class CategoryController {
     @Autowired

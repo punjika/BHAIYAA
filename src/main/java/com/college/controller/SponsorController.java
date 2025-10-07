@@ -9,7 +9,7 @@ import com.college.service.SponsorService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/sponsors")
+@RequestMapping("/admin/sponsors")
 @CrossOrigin(origins = "http://localhost:4200")
 public class SponsorController {
     @Autowired
