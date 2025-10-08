@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/registrations")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://*.up.railway.app")
 public class EventRegistrationController {
 
     @Autowired

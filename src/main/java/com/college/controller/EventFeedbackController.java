@@ -12,7 +12,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api/feedback")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://*.up.railway.app")
 public class EventFeedbackController {
 
     @Autowired
